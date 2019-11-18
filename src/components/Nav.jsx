@@ -26,9 +26,11 @@ export default props =>
             Acessórios
         </a>
 
-        <a href="#">
+        <Link to="/receita">
             Receitas
-        </a>
+        </Link>
+           
+    
 
         <a href="#">
             Livros
