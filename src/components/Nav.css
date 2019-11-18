@@ -1,0 +1,29 @@
+
+.nav {
+    background-color: #844B00;
+    height:75px;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #FECB91;
+    text-transform: uppercase;
+    font-family: 'Acme';
+}
+
+.nav i {
+    background-color: transparent;
+}
+
+.nav a:hover {
+    color: #EF8001;
+}
+
+.nav a:active{
+    color: #EF8001;
+}
+
+a:visited {
+    color: #EF8001;
+  }

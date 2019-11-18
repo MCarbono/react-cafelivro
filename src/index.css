@@ -1,3 +1,23 @@
+@font-face {
+  font-family: 'Satisfy';
+  src: url('./fonts/Satisfy-Regular.ttf');
+
+}
+
+@font-face {
+  font-family: 'Acme';
+  src: url('./fonts/Acme-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'RobotoMono';
+  src: url('./fonts/RobotoMono-Regular.ttf');
+}
+
+* {
+  font-family: 'RobotoMono';
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -11,3 +31,5 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
