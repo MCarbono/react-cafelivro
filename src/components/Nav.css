@@ -21,9 +21,9 @@
 }
 
 .nav a:active{
-    color: #EF8001;
+    color: #000;
 }
 
-a:visited {
-    color: #EF8001;
+.nav a:visited {
+    color:red;
   }
