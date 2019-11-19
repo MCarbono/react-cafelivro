@@ -5,7 +5,7 @@ export default class Contato extends Component {
     render(){
         return(
             <div className="d-flex flex-column align-items-center">
-                <h1>Fale Conosco</h1> 
+                <h1 class="mt-5">Fale Conosco</h1> 
                 <h4>Envie uma mensagem para nós</h4>
                 
                 <div className="input-group col-sm-4 mt-2">
@@ -23,7 +23,6 @@ export default class Contato extends Component {
                 <div className="mt-4">
                     <button class="btn btn-dark">Enviar</button>
                 </div>
-                
             </div>
         );
     }

@@ -14,24 +14,20 @@ export default props =>
              Início
         </a>
 
-        <a href="#">
-             Bebidas
-        </a>
+        
 
-        <a href="#">
-            Comidas  
-        </a>
+        <Link to="/produtos">
+            Produtos
+        </Link>    
 
-        <a href="#">
+        <Link to="/acessorios">
             Acessórios
-        </a>
-
+        </Link>
+            
         <Link to="/receita">
             Receitas
         </Link>
            
-    
-
         <a href="#">
             Livros
         </a>
