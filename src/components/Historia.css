@@ -1,0 +1,31 @@
+.historia {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(204, 111, 34);
+}
+
+.historia img {
+    border-radius: 10px;
+}
+
+.historia h1{
+    color: black;
+    text-decoration: underline;
+}
+
+.historia-conteudo{
+    width: 100%;
+    height: 500px;
+}
+
+.historia-img {
+    width: 50%;
+    height: inherit;
+}
+
+.historia-paragrafo {
+    color: black;
+    font-size: 33px;
+    text-align: justify;
+    
+}

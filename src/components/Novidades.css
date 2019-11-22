@@ -1,0 +1,10 @@
+.novidades {
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 178, 115);
+}
+
+.novidades h1 {
+    text-decoration: underline;
+    
+}

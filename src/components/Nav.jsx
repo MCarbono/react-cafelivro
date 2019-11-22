@@ -4,18 +4,16 @@ import './Nav.css';
 import {Link} from 'react-router-dom';
 
 export default props => 
-    <nav className="nav d-flex justify-content-around align-items-center">
+    <nav className="nav d-flex justify-content-around align-items-center mb-3">
 
         <a href="#">
             
         </a>
 
-        <a href="#">
-             Início
-        </a>
-
+        <Link to="/home">
+            Home
+        </Link>
         
-
         <Link to="/produtos">
             Produtos
         </Link>    

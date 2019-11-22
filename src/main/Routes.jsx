@@ -5,6 +5,7 @@ import Contato from '../components/Contato';
 import Receita from '../components/Receita';
 import Acessorios from '../components/Acessorios';
 import Produtos from '../components/Produtos';
+import Home from '../components/Home';
 
 export default props => 
     <Switch>
@@ -12,4 +13,5 @@ export default props =>
         <Route path="/receita" component={Receita} />
         <Route path="/acessorios" component={Acessorios} />
         <Route path="/produtos" component={Produtos} />
+        <Route path="/home" component={Home} />
     </Switch>

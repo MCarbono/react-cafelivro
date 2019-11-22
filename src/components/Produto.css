@@ -1,5 +1,5 @@
 .produto {
-    width: 25%;
+    width: 20%;
     height:auto;
     background-size: cover;
 }
@@ -9,9 +9,10 @@
 }
 
 .descricaoProduto {
-    width: 25%;
+    width: 20%;
     height: auto;
-    
+    background-color: #f7eee1;
+    margin-right: 20px;
 }
 
 .descricaoProduto h3 {
@@ -19,4 +20,17 @@
 }
 .descricaoProduto ul li {
     list-style-type: none;
+    color: rgb(105, 27, 27);
 }
+
+.borda {
+    border: 4px solid #f7eee1;
+    border-radius: 10px;
+}
+
+hr {
+    width: 90%;
+    border-color: #af4f0e;
+    border-width: 2px;
+}
+
