@@ -1,0 +1,22 @@
+.produto {
+    width: 25%;
+    height:auto;
+    background-size: cover;
+}
+
+.produto img {
+    width: 100%;
+}
+
+.descricaoProduto {
+    width: 25%;
+    height: auto;
+    
+}
+
+.descricaoProduto h3 {
+    color: #af4f0e;
+}
+.descricaoProduto ul li {
+    list-style-type: none;
+}
