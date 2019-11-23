@@ -2,15 +2,30 @@ figure img {
     width: 350px;
     height: auto;
     border-radius: 10px;
+    transition: 0.7s ease-out;
+    border: 1.5px solid black;
+    filter: grayscale(100%);
 }
 
 figure figcaption {
+    margin-top: 5px;
     font-size: 1.5rem;
+    
 }
 
 div p {
     font-size: 2rem;
     color: #af4f0e;
+}
+
+figure img:hover {
+    box-shadow: 4px 4px 5px #333;
+	transition: box-shadow;
+	transition: 0.7s ease-in;
+	background-color: rgba(255, 255, 255, .8);
+    transform: scale(1.05); 
+    filter: grayscale(0%);
+   
 }
 
 

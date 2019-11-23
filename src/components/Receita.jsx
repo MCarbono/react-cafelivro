@@ -117,9 +117,6 @@ export default class Receita extends Component {
                         <li>Desenforme, cubra com o restante do creme.</li>
                     </ol>
                </div>
-
-               
-
             </div>
         );
     }

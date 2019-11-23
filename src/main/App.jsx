@@ -16,6 +16,7 @@ export default props =>
             <Header />
             <Nav />
             <Routes />
+            <Footer />
             
         </div>
     </BrowserRouter>

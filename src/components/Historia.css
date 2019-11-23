@@ -6,6 +6,7 @@
 
 .historia img {
     border-radius: 10px;
+    filter: grayscale(100%);
 }
 
 .historia h1{
