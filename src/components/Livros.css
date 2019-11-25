@@ -1,0 +1,33 @@
+.card-livro {
+    width: 30%;
+    height: 100%;
+    
+}
+
+.imagem-livro > img {
+    width: 100%;
+    height: 340px;
+}
+
+.card-body > .lista {
+    width: 100%;
+    height: 180px;
+}
+
+.lista li {
+    list-style-type: none;
+}
+
+.formulario {
+    margin-top: 2000px;
+}
+
+.conteudo-livro h2, hr {
+    color: black;
+}
+
+.conteudo-livro hr {
+    width: 90%;
+    border-color: black;
+    border-width: 2px;
+}

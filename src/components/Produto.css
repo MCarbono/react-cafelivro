@@ -21,6 +21,7 @@
 .descricaoProduto ul li {
     list-style-type: none;
     color: rgb(105, 27, 27);
+    font-size: 1.1em;
 }
 
 .borda {

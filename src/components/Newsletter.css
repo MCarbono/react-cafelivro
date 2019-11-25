@@ -1,0 +1,8 @@
+.newsletter {
+    background-color: rgb(255, 178, 115);
+    height: 130px;
+}
+
+.newsletter input {
+    width: 71%;
+}

@@ -17,4 +17,9 @@ export default props =>
             preparo={["Misture o chocolate picado a água e o café", "Leve ao fogo brando, mexendo até o chocolate derreter e engrossar", "Bata a manteiga, a gema e o açúcar até ficar esbranquiçado", "Misture com o chocolate", 
             "Sem deixar de bater, acrescente o creme de leite aos poucos", "Misture o conhaque e a água e umedeça os biscoitos pouco a pouco", "Coloque num refratário uma camada de biscoitos, alternando com o creme e as ameixas picadas, sendo a última de biscoito", 
             "Reserve um pouco do creme", "Gele por 24 horas", "Desenforme, cubra com o restante do creme"]}/>
+
+        <Receita title="Brigadeiro de café" imagem="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS8OLDn0W_eETVr-mV5I_sQHfSd6N-2OP1C3rCLr311tXrAZIhR"
+            ingredientes={["1 lata de leite condensado","1 colher (sobremesa) rasa de Nescafé","1 colher (sobremesa) cheia de Nescau","60 g de margarina", "Opcional: chocolate em pó"]}
+            preparo={["Coloque o leite condensado, a margarina e o Nescafé em uma panela ao fogo", "Espere o Nescafé se dissolver (sempre mexendo para nao agarrar)", "Depois que o Nescafé estiver mais ou menos dissolvido, acrescente o Nescau",
+             "Abaixe o fogo e continue mexendo até dar ponto de brigadeiro", "Se quiser enrolar, pegue uma pequena porção com uma colher e enrole na mão, depois passe no chocolate em pó"]}/>    
     </div>

@@ -1,12 +1,11 @@
 .historia {
     width: 100%;
     height: 500px;
-    background-color: rgb(204, 111, 34);
+    /*background-color: rgb(204, 111, 34);*/
 }
 
 .historia img {
     border-radius: 10px;
-    filter: grayscale(100%);
 }
 
 .historia h1{
@@ -16,17 +15,11 @@
 
 .historia-conteudo{
     width: 100%;
-    height: 500px;
-}
-
-.historia-img {
-    width: 50%;
-    height: inherit;
+    
 }
 
 .historia-paragrafo {
-    color: black;
-    font-size: 33px;
-    text-align: justify;
-    
+    font-size: 2em;
+    text-align: justify;   
 }
+

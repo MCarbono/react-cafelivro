@@ -9,8 +9,9 @@ export default props =>
                 </div>
                 <div class="col-md-8 dados-receita">
                     <div class="card-body">
-                        <h2 class="card-title text-center">{props.title}</h2>
-
+                        <h2 class="card-title text-center titulo-receita">{props.title}</h2>
+                        <hr />
+                        
                         <h4>Ingredientes</h4>
                         <ul>
                             {props.ingredientes.map((ingrediente) => (

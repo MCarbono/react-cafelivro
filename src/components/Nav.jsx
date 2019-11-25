@@ -6,11 +6,7 @@ import {Link} from 'react-router-dom';
 export default props => 
     <nav className="nav d-flex justify-content-around align-items-center mb-3">
 
-        <a href="#">
-            
-        </a>
-
-        <Link to="/home">
+        <Link to="/">
             Home
         </Link>
         
@@ -26,9 +22,9 @@ export default props =>
             Receitas
         </Link>
            
-        <a href="#">
+        <Link to="/livros">
             Livros
-        </a>
+        </Link>
 
         <Link to="/contato">
             Contato
