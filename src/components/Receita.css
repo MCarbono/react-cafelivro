@@ -1,12 +1,26 @@
-.irish {
-    width: 50%;   
+.lista-ingrediente {
+    list-style-type: none;
+    margin-left: -30px;
+    color: rgb(105, 27, 27);
 }
 
-h2, h4 {
+.dados-receita {
+    background-color: #f7eee1;
+}
+
+.dados-receita h4 {
     color: #af4f0e;
 }
 
-.irish img {
-    width: 100%;
+.card-title {
+    color: #af4f0e;
 }
 
+.lista-preparo {
+    color: rgb(105, 27, 27);
+}
+
+.imagem-teste > img {
+    width: 100%;
+    height: 100%;
+}

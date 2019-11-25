@@ -22,7 +22,7 @@ export default props =>
             Acessórios
         </Link>
             
-        <Link to="/receita">
+        <Link to="/receitas">
             Receitas
         </Link>
            
