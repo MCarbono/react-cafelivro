@@ -2,6 +2,7 @@ import React, {Fragment} from 'react';
 import './Novidades.css';
 
 import NovidadesProduto from './NovidadesProduto';
+import NovidadesLivros from './NovidadesLivros';
 
 export default props => 
     <Fragment>
@@ -21,11 +22,11 @@ export default props =>
             <h1 className="mb-5 text-center">Livros Novos</h1>
 
             <div className="d-flex justify-content-around flex-wrap">
-                <NovidadesProduto imagem="https://images-na.ssl-images-amazon.com/images/I/614IVg6F1fL.jpg" nome="Nosferatu" />
-                <NovidadesProduto imagem="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcREqVhLEyMtdaYMdMjIewsS3CI4h1eDk-7c5z-O6Wn5nT7d2w_p" nome="O Instituto" />
-                <NovidadesProduto imagem="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtyNFa6X2g53X_ta08XimsE4q0gcoHbR7rIaKP6I7iliZ98_Mw"
+                <NovidadesLivros imagem="https://images-na.ssl-images-amazon.com/images/I/614IVg6F1fL.jpg" nome="Nosferatu" />
+                <NovidadesLivros imagem="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcREqVhLEyMtdaYMdMjIewsS3CI4h1eDk-7c5z-O6Wn5nT7d2w_p" nome="O Instituto" />
+                <NovidadesLivros imagem="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtyNFa6X2g53X_ta08XimsE4q0gcoHbR7rIaKP6I7iliZ98_Mw"
   nome="A Ilha do Dr. Moreau"/>
-                <NovidadesProduto imagem="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSPhDcz5J0qaZjsZjr4AqRGfl8uih7ew2XFHvFs6U3c1wtDp5mv" nome="Hollywood" />
+                <NovidadesLivros imagem="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSPhDcz5J0qaZjsZjr4AqRGfl8uih7ew2XFHvFs6U3c1wtDp5mv" nome="Hollywood" />
             </div>
         </div>
     </Fragment>
