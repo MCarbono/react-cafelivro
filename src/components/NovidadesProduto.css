@@ -3,8 +3,12 @@
     height: auto;
 }
 
-.figureNovidadesImagem{
+.figureNovidadesImagemProdutos{
     width: 100%;
     height: 200px;
-      
+}
+
+.livros {
+    width: 100%;
+    height: 350px;
 }
