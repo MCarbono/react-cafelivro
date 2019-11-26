@@ -7,3 +7,9 @@
 .novidades h1 {
     text-decoration: underline;
 }
+
+.novidades p {
+    color: black;
+    font-size: 1.5em;
+    margin-left: 2.5%;
+}

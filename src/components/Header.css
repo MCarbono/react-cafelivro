@@ -1,16 +1,16 @@
 .header {
     width: 100%;
-    height: 400px;
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTlhtBRHVK1GzPNzpREbOKXC0ivY8nfK1XABCFjxoZChMjRCS5Y');
+    height: 600px;
+    background-image: url('https://img.elo7.com.br/product/zoom/206737E/papel-de-parede-autocolante-graos-de-cafe-marrom-papel-de-parede-ursos.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    
+    opacity: 0.9;
     
 }
 
 .header h1 {
     background-color: transparent;
-    font-size: 4em;
-    color: #F4E0C6;
+    font-size: 7em;
+    color: #EF8001;
     font-family: 'Satisfy';
 }

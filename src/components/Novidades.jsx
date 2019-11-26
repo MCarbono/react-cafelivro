@@ -1,5 +1,6 @@
 import React, {Fragment} from 'react';
 import './Novidades.css';
+import {Link} from 'react-router-dom';
 
 import NovidadesProduto from './NovidadesProduto';
 import NovidadesLivros from './NovidadesLivros';
@@ -28,5 +29,7 @@ export default props =>
   nome="A Ilha do Dr. Moreau"/>
                 <NovidadesLivros imagem="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSPhDcz5J0qaZjsZjr4AqRGfl8uih7ew2XFHvFs6U3c1wtDp5mv" nome="Hollywood" />
             </div>
+
+            <p className="mt-5">Clique <Link to="/livros">aqui</Link> para ver nosso catálogo de livros.</p>
         </div>
     </Fragment>

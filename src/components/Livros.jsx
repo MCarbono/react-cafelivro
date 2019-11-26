@@ -44,7 +44,7 @@ export default class Livros extends Component {
 
     renderForm(){
         return(
-            <form className="container formulario">
+            <div className="container form">
 
                 <div className="form-row">
                     <div classname="col-md-4">
@@ -116,7 +116,7 @@ export default class Livros extends Component {
                 <button className="btn btn-primary mr-2" onClick={e => this.save(e)}>
                     Salvar
                 </button>
-            </form>
+            </div>
 
         );
     }
